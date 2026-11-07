@@ -1,5 +1,8 @@
- oms:
+   oms:
      log_level: INFO
-     retention_days: 365
+     retention_days: 730
+     archive:
+       bucket: regmind-oms-logs
+       storage_class: STANDARD_IA
    backoffice:
      log_level: WARN

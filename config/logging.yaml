@@ -1,0 +1,5 @@
+ oms:
+     log_level: INFO
+     retention_days: 90
+   backoffice:
+     log_level: WARN
